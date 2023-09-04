@@ -1,10 +1,11 @@
-[# Nívea de Laço
-[https://img.icons8.com/?size=512&id=yUdJlcKanVbh&format=png](https://img.icons8.com/?size=512&id=yUdJlcKanVbh&format=png)
+# Nívea de Laço
 
 <aside>
 💡 Aplicação web a ser desenvolvida para a disciplina de estágio 2 da Uni7.
 
 </aside>
+
+Notion: [Nívea de Laço](https://www.notion.so/N-vea-de-La-o-d7fe249169ec4a6397d3230df622732d?pvs=21) 
 
 # Problema
 
@@ -56,4 +57,3 @@
 - **Github**
 
 [https://img.icons8.com/?size=512&id=4Z2nCrz5iPY2&format=png](https://img.icons8.com/?size=512&id=4Z2nCrz5iPY2&format=png)
-](https://www.notion.so/N-vea-de-La-o-d7fe249169ec4a6397d3230df622732d?pvs=4)https://www.notion.so/N-vea-de-La-o-d7fe249169ec4a6397d3230df622732d?pvs=4
