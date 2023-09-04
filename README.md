@@ -1,34 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Nívea de Laço
 
-## Getting Started
+<aside>
+💡 Aplicação web a ser desenvolvida para a disciplina de estágio 2 da Uni7.
 
-First, run the development server:
+</aside>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+# Problema
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Desenvolver aplicação que possa ser utilizada pelo usuário que deseje manter os cadastros dos seus produtos (no caso tratado aqui laços), registre as compras (entradas de materiais), a composição dos lanços, preços etc. Sirva também como vitrine desses lanços e mantenha uma integração com ambiente de checkout para o caso de compras feitas pela Web
+> 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# Proposta
 
-## Learn More
+> Desenvolver aplicação web com as seguintes funcionalidade
+> 
+- Cadastro do usuário
+- Autenticação por meio de conta do google (ou outro oauth)
+- Manter materiais
+- Manter Laços
+- Manter produtos
+- Manter compras (Entradas de Materiais/Saídas Financeiras)
+- Manter Vendas
+- Integração com [Stripe](https://stripe.com/docs/development?locale=pt-BR) (ou, para casos futuros com algum headless storefront como o [Shopify](https://shopify.dev/))
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Tecnologias
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+> Abaixo seguem tecnologias idealizadas para serem utilizadas durante o desenvolvimento do projeto
+> 
 
-## Deploy on Vercel
+- **Nexts Js**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[https://img.icons8.com/?size=512&id=yUdJlcKanVbh&format=png](https://img.icons8.com/?size=512&id=yUdJlcKanVbh&format=png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Prisma**
+
+[https://img.icons8.com/?size=512&id=aqb9SdV9P8oC&format=png](https://img.icons8.com/?size=512&id=aqb9SdV9P8oC&format=png)
+
+- **PostgreSQL**
+
+[https://img.icons8.com/?size=512&id=36440&format=png](https://img.icons8.com/?size=512&id=36440&format=png)
+
+- **Tailwind CSS**
+
+[https://img.icons8.com/?size=512&id=UpSCHTwpywad&format=png](https://img.icons8.com/?size=512&id=UpSCHTwpywad&format=png)
+
+- **Vercel**
+
+[https://static.wikia.nocookie.net/logopedia/images/a/a7/Vercel_favicon.svg/revision/latest/scale-to-width-down/250?cb=20221026155821](https://static.wikia.nocookie.net/logopedia/images/a/a7/Vercel_favicon.svg/revision/latest/scale-to-width-down/250?cb=20221026155821)
+
+- **Github**
+
+[https://img.icons8.com/?size=512&id=4Z2nCrz5iPY2&format=png](https://img.icons8.com/?size=512&id=4Z2nCrz5iPY2&format=png)
