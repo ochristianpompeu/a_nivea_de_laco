@@ -101,7 +101,7 @@ Insumos ao projeto | API para cadastro de produtos e demais funcionalidades disp
         - Prisma CLI
         - Vercel CLI
 
-## Configuração Ambiente
+## Fluxo de telas
 
 ---
 ![Diagrama](public/assets/diagrama.png)
