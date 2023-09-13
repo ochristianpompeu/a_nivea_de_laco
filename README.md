@@ -1,4 +1,5 @@
-# Projeto Nívea de Laço ![projeto_nivea_de_laco](public/assets/a_nive_de_laco.png)
+![projeto_nivea_de_laco](public/assets/a_nive_de_laco.png)
+# Projeto Nívea de Laço 
 
 ## 1. Objetivo
 
