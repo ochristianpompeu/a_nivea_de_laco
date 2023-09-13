@@ -1,4 +1,4 @@
-# Projeto Nívea de Laço
+# Projeto Nívea de Laço ![](notion://www.notion.so/image/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fniveadelaco.appspot.com%2Fo%2Fbrand%252Fnivea_de_laco-removebg-preview.png%3Falt%3Dmedia%26token%3D8a1ef677-089e-4773-8209-d288f765e8a1?table=block&id=d7fe2491-69ec-4a63-97d3-230df622732d&spaceId=3d453e61-6ef1-4a7a-a354-ac50ff651a0b&width=250&userId=b4d5fee2-57f1-48e3-91f9-f7e59c9e2f21&cache=v2)
 
 ## 1. Objetivo
 
