@@ -4,7 +4,7 @@
 
 O objetivo deste documento é definir as necessidade e características da aplicação na visão do administrador do Projeto Nívea de Laço
 
-## Descrição do Sistema
+## 2. Descrição do Sistema
 
 O projeto Nívea de laço consiste em uma aplicação com o objetivo de entregar para um administrado de produtos que podem ser vendidos em storefronts, um ambiente onde possa manter os cadastros e controles de seus produtos bem como visualizar informações que sejam relevantes relacionadas aos seus produtos.
 
@@ -21,7 +21,7 @@ O sistema irá conter as seguintes funcionalidades:
 - Integração reversa para informar quantos produtos ainda tem em estoque a medida que as vendas forem realizadas na plataforma de venda
 - Sugerir compra de materiais com base no estoque de materiais
 
-## Partes interessadas
+## 3. Partes interessadas
 
 ### Artesã (o)
 
@@ -32,7 +32,7 @@ O sistema irá conter as seguintes funcionalidades:
 | Insumos ao projeto | Requisitos |
 | Representante | Christian Pompeu da Silva |
 
-## PERSONAS
+## 4. PERSONAS
 
 ### Usuário
 
@@ -52,7 +52,7 @@ O sistema irá conter as seguintes funcionalidades:
 | Insumos ao projeto | API para cadastro de produtos e demais funcionalidades disponibilizadas |
 | Representante | Christian Pompeu da Silva |
 
-## Necessidades e Funcionalidades
+## 5. Necessidades e Funcionalidades
 
 - #N001. Cadastrar material
     - #N001-F001. Inserir novo material
@@ -69,7 +69,7 @@ O sistema irá conter as seguintes funcionalidades:
     - #N002-F002. Atualizar estoque dos produtos com base nas vendas realizadas
     - #N002-F003. Informar necessidade de repor produto e materiais
 
-## Arquitetura
+## 6. Arquitetura
 |                |                          |                          |
 |----------------|-------------------------------|-------------------------------|
 | Linguagem | Typescript | https://www.typescriptlang.org/ |
@@ -79,13 +79,13 @@ O sistema irá conter as seguintes funcionalidades:
 | Deploy | Vercel | https://vercel.com/ |
 | Framework de Estilização | Gluestack | https://ui.gluestack.io/ |
 
-## Configuração Ambiente
+## 7. Configuração Ambiente
 
 - Visual Studio Code
     - Extensões:
         - Prisma CLI
         - Vercel CLI
 
-## Fluxo de telas
+## 8. Fluxo de telas
 
 ![Diagrama](public/assets/diagrama.png)
