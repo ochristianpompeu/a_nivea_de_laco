@@ -1,6 +1,6 @@
 # Projeto Nívea de Laço
 
-## Objetivo
+## 1. Objetivo
 
 O objetivo deste documento é definir as necessidade e características da aplicação na visão do administrador do Projeto Nívea de Laço
 
