@@ -36,6 +36,8 @@ O sistema irá conter as seguintes funcionalidades:
 
 ### Usuário
 
+|                |                          |
+|----------------|-------------------------------|
 | Descrição | Pessoa que utiliza o sistema para manter os cadastros e a integração |
 | Papel | Utilizar o sistema |
 | Insumos ao projeto | Cadastro dos materiais. Cadastro dos produtos |
@@ -43,6 +45,8 @@ O sistema irá conter as seguintes funcionalidades:
 
 ### Shopify
 
+|                |                          |
+|----------------|-------------------------------|
 | Descrição | Ambiente de Storefront onde os produtos serão enviados por meio da aplicação |
 | Papel | funcionar como loja virtual alimentada pela integração |
 | Insumos ao projeto | API para cadastro de produtos e demais funcionalidades disponibilizadas |
@@ -66,7 +70,8 @@ O sistema irá conter as seguintes funcionalidades:
     - #N002-F003. Informar necessidade de repor produto e materiais
 
 ## Arquitetura
-
+|                |                          |                          |
+|----------------|-------------------------------|-------------------------------|
 | Linguagem | Typescript | https://www.typescriptlang.org/ |
 | Framework FrontEnd | React com Next JS | https://nextjs.org/ |
 | Banco de Dados | Vercel Postgres | https://vercel.com/docs/storage/vercel-postgres |
