@@ -26,32 +26,24 @@ O sistema irá conter as seguintes funcionalidades:
 ### Artesã (o)
 
 | Descrição | Pessoa interessada em manter seus dados de maneira eletrônica e de fácil acesso para atualizar de maneira automática no ambiente de storefront. |
-| --- | --- |
 | Papel | Manter os cadastros dentro do sistema |
 | Insumos ao projeto | Requisitos |
 | Representante | Christian Pompeu da Silva |
 
 ## PERSONAS
 
----
-
 ### Usuário
 
 | Descrição | Pessoa que utiliza o sistema para manter os cadastros e a integração |
-| --- | --- |
 | Papel | Utilizar o sistema |
-| 
-Insumos ao projeto | Cadastro dos materiais
-Cadastro dos produtos |
+| Insumos ao projeto | Cadastro dos materiais. Cadastro dos produtos |
 | Representante | Christian Pompeu da Silva |
 
 ### Shopify
 
 | Descrição | Ambiente de Storefront onde os produtos serão enviados por meio da aplicação |
-| --- | --- |
 | Papel | funcionar como loja virtual alimentada pela integração |
-| 
-Insumos ao projeto | API para cadastro de produtos e demais funcionalidades disponibilizadas |
+| Insumos ao projeto | API para cadastro de produtos e demais funcionalidades disponibilizadas |
 | Representante | Christian Pompeu da Silva |
 
 ## Necessidades e Funcionalidades
@@ -74,7 +66,6 @@ Insumos ao projeto | API para cadastro de produtos e demais funcionalidades disp
 ## Arquitetura
 
 | Linguagem | Typescript | https://www.typescriptlang.org/ |
-| --- | --- | --- |
 | Framework FrontEnd | React com Next JS | https://nextjs.org/ |
 | Banco de Dados | Vercel Postgres | https://vercel.com/docs/storage/vercel-postgres |
 | ORM | Prisma | https://www.prisma.io/ |
