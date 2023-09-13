@@ -2,13 +2,9 @@
 
 ## Objetivo
 
----
-
 O objetivo deste documento é definir as necessidade e características da aplicação na visão do administrador do Projeto Nívea de Laço
 
 ## Descrição do Sistema
-
----
 
 O projeto Nívea de laço consiste em uma aplicação com o objetivo de entregar para um administrado de produtos que podem ser vendidos em storefronts, um ambiente onde possa manter os cadastros e controles de seus produtos bem como visualizar informações que sejam relevantes relacionadas aos seus produtos.
 
@@ -27,15 +23,12 @@ O sistema irá conter as seguintes funcionalidades:
 
 ## Partes interessadas
 
----
-
 ### Artesã (o)
 
 | Descrição | Pessoa interessada em manter seus dados de maneira eletrônica e de fácil acesso para atualizar de maneira automática no ambiente de storefront. |
 | --- | --- |
 | Papel | Manter os cadastros dentro do sistema |
-| 
-Insumos ao projeto | Requisitos |
+| Insumos ao projeto | Requisitos |
 | Representante | Christian Pompeu da Silva |
 
 ## PERSONAS
@@ -63,8 +56,6 @@ Insumos ao projeto | API para cadastro de produtos e demais funcionalidades disp
 
 ## Necessidades e Funcionalidades
 
----
-
 - #N001. Cadastrar material
     - #N001-F001. Inserir novo material
     - #N001-F002. Listar materiais
@@ -82,8 +73,6 @@ Insumos ao projeto | API para cadastro de produtos e demais funcionalidades disp
 
 ## Arquitetura
 
----
-
 | Linguagem | Typescript | https://www.typescriptlang.org/ |
 | --- | --- | --- |
 | Framework FrontEnd | React com Next JS | https://nextjs.org/ |
@@ -94,8 +83,6 @@ Insumos ao projeto | API para cadastro de produtos e demais funcionalidades disp
 
 ## Configuração Ambiente
 
----
-
 - Visual Studio Code
     - Extensões:
         - Prisma CLI
@@ -103,5 +90,4 @@ Insumos ao projeto | API para cadastro de produtos e demais funcionalidades disp
 
 ## Fluxo de telas
 
----
 ![Diagrama](public/assets/diagrama.png)
