@@ -1,59 +1,102 @@
-# Nívea de Laço
+# Projeto Nívea de Laço
 
-<aside>
-💡 Aplicação web a ser desenvolvida para a disciplina de estágio 2 da Uni7.
-
-</aside>
-
-Notion: [Nívea de Laço](https://www.notion.so/N-vea-de-La-o-d7fe249169ec4a6397d3230df622732d?pvs=21) 
-
-# Problema
-
-> Desenvolver aplicação que possa ser utilizada pelo usuário que deseje manter os cadastros dos seus produtos (no caso tratado aqui laços), registre as compras (entradas de materiais), a composição dos lanços, preços etc. Sirva também como vitrine desses lanços e mantenha uma integração com ambiente de checkout para o caso de compras feitas pela Web
-> 
+## Objetivo
 
 ---
 
-# Proposta
+O objetivo deste documento é definir as necessidade e características da aplicação na visão do administrador do Projeto Nívea de Laço
 
-> Desenvolver aplicação web com as seguintes funcionalidade
-> 
-- Cadastro do usuário
-- Autenticação por meio de conta do google (ou outro oauth)
-- Manter materiais
-- Manter Laços
-- Manter produtos
-- Manter compras (Entradas de Materiais/Saídas Financeiras)
-- Manter Vendas
-- Integração com [Stripe](https://stripe.com/docs/development?locale=pt-BR) (ou, para casos futuros com algum headless storefront como o [Shopify](https://shopify.dev/))
+## Descrição do Sistema
 
 ---
 
-# Tecnologias
+O projeto Nívea de laço consiste em uma aplicação com o objetivo de entregar para um administrado de produtos que podem ser vendidos em storefronts, um ambiente onde possa manter os cadastros e controles de seus produtos bem como visualizar informações que sejam relevantes relacionadas aos seus produtos.
 
-> Abaixo seguem tecnologias idealizadas para serem utilizadas durante o desenvolvimento do projeto
-> 
+O objetivo é fazer uma integração com a parte headless do shopify (mas pode ser com outros storefronts), para que os cadastros e controles possam ser feitos por nossa aplicação enviando os dados para a api do shopify.
 
-- **Nexts Js**
+O sistema irá conter as seguintes funcionalidades:
 
-[https://img.icons8.com/?size=512&id=yUdJlcKanVbh&format=png](https://img.icons8.com/?size=512&id=yUdJlcKanVbh&format=png)
+- Cadastros dos materiais, que são todos os insumos para produzir os produtos
+    - Ser possível informar os custos de cada material
+- Cadastros dos produtos (laços) sendo informado os materiais que serão utilizados
+    - Precificação automática dos produtos, baseado no custo de cada material envolvido e aplicada a regra de lucro ou informado de maneira manual
+- Integração com o shopify
+    - Quando o produto for cadastrado, ser enviado automaticamente para o o shopify
+- Integração reversa para informar quantos produtos ainda tem em estoque a medida que as vendas forem realizadas na plataforma de venda
+- Sugerir compra de materiais com base no estoque de materiais
 
-- **Prisma**
+## Partes interessadas
 
-[https://img.icons8.com/?size=512&id=aqb9SdV9P8oC&format=png](https://img.icons8.com/?size=512&id=aqb9SdV9P8oC&format=png)
+---
 
-- **PostgreSQL**
+### Artesã (o)
 
-[https://img.icons8.com/?size=512&id=36440&format=png](https://img.icons8.com/?size=512&id=36440&format=png)
+| Descrição | Pessoa interessada em manter seus dados de maneira eletrônica e de fácil acesso para atualizar de maneira automática no ambiente de storefront. |
+| --- | --- |
+| Papel | Manter os cadastros dentro do sistema |
+| 
+Insumos ao projeto | Requisitos |
+| Representante | Christian Pompeu da Silva |
 
-- **Tailwind CSS**
+## PERSONAS
 
-[https://img.icons8.com/?size=512&id=UpSCHTwpywad&format=png](https://img.icons8.com/?size=512&id=UpSCHTwpywad&format=png)
+---
 
-- **Vercel**
+### Usuário
 
-[https://static.wikia.nocookie.net/logopedia/images/a/a7/Vercel_favicon.svg/revision/latest/scale-to-width-down/250?cb=20221026155821](https://static.wikia.nocookie.net/logopedia/images/a/a7/Vercel_favicon.svg/revision/latest/scale-to-width-down/250?cb=20221026155821)
+| Descrição | Pessoa que utiliza o sistema para manter os cadastros e a integração |
+| --- | --- |
+| Papel | Utilizar o sistema |
+| 
+Insumos ao projeto | Cadastro dos materiais
+Cadastro dos produtos |
+| Representante | Christian Pompeu da Silva |
 
-- **Github**
+### Shopify
 
-[https://img.icons8.com/?size=512&id=4Z2nCrz5iPY2&format=png](https://img.icons8.com/?size=512&id=4Z2nCrz5iPY2&format=png)
+| Descrição | Ambiente de Storefront onde os produtos serão enviados por meio da aplicação |
+| --- | --- |
+| Papel | funcionar como loja virtual alimentada pela integração |
+| 
+Insumos ao projeto | API para cadastro de produtos e demais funcionalidades disponibilizadas |
+| Representante | Christian Pompeu da Silva |
+
+## Necessidades e Funcionalidades
+
+---
+
+- #N001. Cadastrar material
+    - #N001-F001. Inserir novo material
+    - #N001-F002. Listar materiais
+    - #N001-F003. Visualizar e editar material
+    - #N001-F004. Excluir materiais cadastrados
+- #N002. Cadastrar Produto
+    - #N002-F001. Inserir novo produto
+    - #N002-F002. Listar produtos
+    - #N002-F003. Visualizar e editar produto
+    - #N002-F004. Excluir produtos cadastrados
+- #N003. Integrar com Shopify
+    - #N003-F001. Integrar produtos cadastrados com ambiente do shopify
+    - #N002-F002. Atualizar estoque dos produtos com base nas vendas realizadas
+    - #N002-F003. Informar necessidade de repor produto e materiais
+
+## Arquitetura
+
+---
+
+| Linguagem | Typescript | https://www.typescriptlang.org/ |
+| --- | --- | --- |
+| Framework FrontEnd | React com Next JS | https://nextjs.org/ |
+| Banco de Dados | Vercel Postgres | https://vercel.com/docs/storage/vercel-postgres |
+| ORM | Prisma | https://www.prisma.io/ |
+| Deploy | Vercel | https://vercel.com/ |
+| Framework de Estilização | Gluestack | https://ui.gluestack.io/ |
+
+## Configuração Ambiente
+
+---
+
+- Visual Studio Code
+    - Extensões:
+        - Prisma CLI
+        - Vercel CLI
