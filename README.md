@@ -25,7 +25,8 @@ O sistema irá conter as seguintes funcionalidades:
 
 ### Artesã (o)
 
-| --- | --- |
+|                |                          |
+|----------------|-------------------------------|
 | Descrição | Pessoa interessada em manter seus dados de maneira eletrônica e de fácil acesso para atualizar de maneira automática no ambiente de storefront. |
 | Papel | Manter os cadastros dentro do sistema |
 | Insumos ao projeto | Requisitos |
